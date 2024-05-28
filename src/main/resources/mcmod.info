@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bot",
+  "name": "BotNERD Client",
+  "description": "Utility mod for 1.12.2",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "MayBe",
+  "updateUrl": "",
+  "authorList": ["BotNERD"],
+  "credits": "",
+  "logoFile": "assets/ref/textures/cl.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
