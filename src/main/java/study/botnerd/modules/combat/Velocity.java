@@ -27,7 +27,7 @@ public class Velocity extends Module {
                 mc.player.connection.sendPacket(new CPacketPlayer.Position(mc.player.posX, mc.player.posY + 0.1, mc.player.posZ, true));
                 mc.player.connection.sendPacket(new CPacketPlayer.Position(mc.player.posX, mc.player.posY, mc.player.posZ, false));
                 mc.player.swingArm(EnumHand.MAIN_HAND);
-                jumped = 0; // reset
+                jumped = 0; 
             }
         } else {
             KeyBinding.setKeyBindState(mc.gameSettings.keyBindJump.getKeyCode(), GameSettings.isKeyDown(mc.gameSettings.keyBindJump));
